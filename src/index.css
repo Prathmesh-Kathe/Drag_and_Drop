@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+.react-flow__pane {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE */
+}
+
+.react-flow {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
